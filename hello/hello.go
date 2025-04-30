@@ -11,10 +11,14 @@ func main() {
 	log.SetPrefix("greeting: ")
 	log.SetFlags(0)
 
-	message, err := greetings.Hello("Gladys")
+	names := []string{"Gladys", "Samantha", "Darrin"}
+
+	messages, err := greetings.Hellos(names)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	fmt.Println(message)
+	for _, greeting := range messages {
+		fmt.Println(greeting)
+	}
 }
