@@ -41,5 +41,12 @@ func main() {
 	// TryAppend()
 	// TryRange()
 	// TryRangeContinued()
-	TryExerciseSlice()
+	// TryExerciseSlice()
+	// TryMap()
+	// TryMapLiterals()
+	// TryMutatingMaps()
+	// TryExerciseMaps()
+	// TryFunctionValues()
+	// TryFunctionClosures()
+	TryExerciseFibonanciClosure()
 }
